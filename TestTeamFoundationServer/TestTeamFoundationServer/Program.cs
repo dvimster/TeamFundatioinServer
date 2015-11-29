@@ -19,4 +19,10 @@ namespace TestTeamFoundationServer
     {
         public string Name { get; set; } 
     }
+
+    class Cusstomer
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
 }
