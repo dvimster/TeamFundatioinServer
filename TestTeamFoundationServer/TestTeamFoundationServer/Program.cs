@@ -11,6 +11,7 @@ namespace TestTeamFoundationServer
         static void Main(string[] args)
         {
             Worker joker = new Worker {Name = "Joker"};
+            Customer batmen = new Customer{Age = 17, Name = "John Wayn"};
             Console.WriteLine(joker.Name);
         }
     }
@@ -20,7 +21,7 @@ namespace TestTeamFoundationServer
         public string Name { get; set; } 
     }
 
-    class Cusstomer
+    class Customer
     {
         public string Name { get; set; }
         public int Age { get; set; }
